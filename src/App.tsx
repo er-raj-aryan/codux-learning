@@ -1,6 +1,9 @@
 import styles from './App.module.scss';
 import ViteSvg from './assets/vite.svg';
 import TypescriptSvg from './assets/typescript.svg';
+import { Button } from './components/button/button';
+import Button_module from './components/button/button.module.scss';
+import Classnames from 'classnames';
 
 function App() {
     return (
@@ -24,6 +27,9 @@ function App() {
                 <img src={TypescriptSvg} width="12" />
                 Visit vitejs.dev to learn more.
             </p>
+            <Button handleClick={() => window.open('https://google.com', '_blank')}>
+                <p className={styles.buttonText}>Click Me</p>
+            </Button>
         </div>
     );
 }
