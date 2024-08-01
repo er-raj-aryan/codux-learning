@@ -8,11 +8,15 @@ import Classnames from 'classnames';
 function App() {
     return (
         <div className={styles.App}>
-            <h2>Welcome to your App Component 🎉</h2>
+            <img
+                src="https://wixplosives.github.io/codux-assets-storage/add-panel/image-placeholder.jpg"
+                alt=""
+            />
+            <h2>Just Creating Learning codux 🎉</h2>
             <span>
-                Double click to edit App component
+                Let&apos;s build latest stuff
                 <br />
-                &amp; drag here elements from + Add <b>Elements</b> Panel
+                &amp; How can we build cool tools <b>Elements</b> Panel
             </span>
             <p
                 style={{
